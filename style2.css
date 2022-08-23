@@ -1,0 +1,224 @@
+/* Theme Name:HTML5
+    Date: 22Aug 2022
+    Description: Learn HTML5
+    Version:1.0
+    Auther Name:Mohamed Ali Mousa
+*/
+body {
+    background-image: url('6.jpg');
+    background-color: azure;
+    font-size: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited{color: #a2b60f;}
+a:active,a:hover{color: #d4a911;}
+.body { 
+    margin: 15px auto ;
+    width: 70% ;
+    clear:both;
+}
+#maindialog{
+    width: 70%;
+    float: left;
+}
+.mainhead img {
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-radius: 5px;
+}
+.mainhead nav{
+    background-color: #a2b60f;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-radius: 5px;
+
+}
+.mainhead nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+.mainhead nav ul li{
+    display: inline;
+    font-size: medium;
+}
+.mainhead a:link, .mainhead a:visited{ 
+    color: rgb(255, 255, 255);
+    padding:7px 75px;
+    display:inline-block;
+    height: 20px;
+
+}
+.mainhead a:hover, .mainhead a:active{ 
+    color: rgb(205, 35, 35);
+    background-color:#d4a911 ;
+    text-shadow: none;
+}
+.tof {
+    background-color: #fff;
+    padding: 3%;
+    margin: 3%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-radius: 5px;
+
+}
+.tof1 {
+    background-color: #fff;
+    padding: 3%;
+    margin: 3%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-radius: 5px;
+
+}
+.tof2 {
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+}
+.tof3 {
+    display: block;
+}
+.tof4{
+    width: 27%;
+    margin: 2% 0 0 2%;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-radius: 5px;
+}
+.tof5{
+    padding-left: 10px;
+    font-size: 13px;
+    
+}
+.tof6{
+    padding-left: 10px;
+    
+}
+.footer {
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #a2b60f;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-radius: 5px;
+
+
+}
+.footer p{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    color: white;
+    padding-top: -30px;
+}
+.tet {
+    padding-top: -10%;
+}
+.img1{
+    width: 100%;
+}
+figure{
+    margin: 20px 0;
+    padding: -10;
+    font-size: 80%;
+    color: rgb(59, 56, 56);
+}
+.topt{
+    padding-left:20px;
+}
+h1{
+   margin: -20px 1px;
+}   
+
+
+
+@media only screen and (max-width : 480px) {
+    .body { 
+        width : 90%;
+        font-size: 95%;
+    }
+
+    #maindialog{
+        width: 100%;
+
+    }
+    .mainhead nav{
+        height: 150px;
+    }
+    .mainhead nav ul {
+        width: 100%;
+        padding: 0 ;
+    }
+    .mainhead a:link, .mainhead a:visited{ 
+        display: block;
+        padding-top: 10px;
+    }
+    .tof4{
+        width: 95%;
+    }           
+    }
+    .footer {
+        height:10px;
+        padding-bottom: 40px;
+    }
+    footer p{
+        font-size: small;
+    }
+
+@media only screen and (max-width : 680px) {
+    .body { 
+        width : 90%;
+        font-size: 100%;
+    }
+
+    #maindialog{
+        width: 100%;
+
+    }
+    .mainhead nav{
+        height: 150px;
+    }
+    .mainhead nav ul {
+        width: 100%;
+        padding: 0 ;
+    }
+    .mainhead a:link, .mainhead a:visited{ 
+        display: block;
+        padding-top: 10px;
+    }
+    .tof4{
+        width: 95%;
+    }           
+    }
+    .footer {
+        height:10px;
+        padding-bottom: 40px;
+    }
+    footer p{
+        font-size: small;
+    }
+
+    
+
+
+
+
+    
+
